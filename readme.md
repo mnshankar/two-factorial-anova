@@ -9,7 +9,7 @@ This package is used to output simple 2 factor ANOVA (Analysis of Variables) par
 Installation
 ------------
 
-Add the LinearRegression package as a dependency to your composer.json file:
+Add the ANOVA package as a dependency to your composer.json file:
 
 ```javascript
 {
