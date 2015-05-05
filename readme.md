@@ -14,7 +14,7 @@ Add the LinearRegression package as a dependency to your composer.json file:
 ```javascript
 {
     "require": {
-        "mnshankar/anova": "1.0"
+        "mnshankar/two-factorial-anova": "1.0"
     }
 }
 ```
