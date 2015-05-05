@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mnshankar/two-factorial-anova.svg)](https://travis-ci.org/mnshankar/two-factorial-anova)
+
 Classic two-factorial ANOVA (With Replication)
 ==============================================
 
