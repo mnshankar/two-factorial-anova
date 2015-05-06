@@ -41,8 +41,8 @@ class ANOVA
     protected $Prc;
 
     protected $replications;
-    protected $df1 = 1; //k-1;
-    protected $df2 = 8; //r*k*(N-1);
+    protected $df1; //k-1;
+    protected $df2; //r*k*(N-1);
 
     /**
      * Format the passed in as an array into a 2*2 factorial grid
@@ -79,6 +79,9 @@ class ANOVA
         $partition = array_chunk($data, $replications);
         //next partition the data into a 2*2 factorial matrix
         $this->factorialArray = array_chunk($partition, 2);
+        //set the degrees of freedom
+        $this->df1 = 1;
+        $this->df2 = 4*($replications-1);
         //is the factorialArray valid?
         $this->checkArray();
         //run the base calculations. These are cached in fields for efficiency
