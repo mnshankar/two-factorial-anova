@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mnshankar/two-factorial-anova.svg)](https://travis-ci.org/mnshankar/two-factorial-anova)
+
 Classic two-factorial ANOVA (With Replication)
 ==============================================
 
@@ -7,12 +9,12 @@ This package is used to output simple 2 factor ANOVA (Analysis of Variables) par
 Installation
 ------------
 
-Add the LinearRegression package as a dependency to your composer.json file:
+Add the ANOVA package as a dependency to your composer.json file:
 
 ```javascript
 {
     "require": {
-        "mnshankar/anova": "1.0"
+        "mnshankar/two-factorial-anova": "1.0"
     }
 }
 ```
