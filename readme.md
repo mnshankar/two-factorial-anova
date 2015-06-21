@@ -70,3 +70,10 @@ Reference
 ---------
 NIST/SEMATECH e-Handbook of Statistical Methods, 
 http://www.itl.nist.gov/div898/handbook/ppc/section2/ppc232.htm, 5/4/2015.
+
+I acknowledge with thanks, input from 
+Dr. Ying Zhang, Ph.D
+Professor & Director of Education
+Department of Biostatistics
+IU Fairbanks School of Public Health and
+IU School of Medicine
